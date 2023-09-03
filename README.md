@@ -7,9 +7,9 @@ Graduation Project
 
 2- The front-end where we will interact directly with the API using React JS.
 
-##Instruction
+## Instruction
 
-##Run server
+## Run server
 
 ```bash
 virtualenv pyenv
@@ -17,11 +17,17 @@ cd pyenv/Scripts
 activate
 cd backend
 pip install -r requirements.txt
+```
+
+```bash
+cd backend
+python manage.py makemigrations
+python manage.py migrate
 python manage.py runserver
 ```
 Server will run at [http://localhost:8080](http://localhost:8080)
 
-##Run app
+## Run app
 
 ```bash
 cd frontend
