@@ -5,7 +5,7 @@ Graduation Project
 
 1- The Back-end where we're going to create API using DJANG-REST
 
-2- The front-end where we will interact directly with the API using React JS.
+2- The Front-end where we will interact directly with the API using React JS.
 
 ## Instruction
 
